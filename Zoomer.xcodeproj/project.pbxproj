@@ -10,9 +10,14 @@
 		C85EEC4628EE0CCA00EBE2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC4528EE0CCA00EBE2A0 /* AppDelegate.swift */; };
 		C85EEC4828EE0CCA00EBE2A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC4728EE0CCA00EBE2A0 /* SceneDelegate.swift */; };
 		C85EEC4A28EE0CCA00EBE2A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC4928EE0CCA00EBE2A0 /* ViewController.swift */; };
-		C85EEC4D28EE0CCA00EBE2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85EEC4B28EE0CCA00EBE2A0 /* Main.storyboard */; };
 		C85EEC4F28EE0CCC00EBE2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85EEC4E28EE0CCC00EBE2A0 /* Assets.xcassets */; };
 		C85EEC5228EE0CCC00EBE2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85EEC5028EE0CCC00EBE2A0 /* LaunchScreen.storyboard */; };
+		C85EEC5E28EE0EAB00EBE2A0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC5D28EE0EAB00EBE2A0 /* BaseViewController.swift */; };
+		C85EEC6028EE10E200EBE2A0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC5F28EE10E200EBE2A0 /* TabBarViewController.swift */; };
+		C85EEC6228EE131F00EBE2A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC6128EE131F00EBE2A0 /* HomeViewController.swift */; };
+		C85EEC6428EE134E00EBE2A0 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC6328EE134E00EBE2A0 /* HistoryViewController.swift */; };
+		C85EEC6628EE15FE00EBE2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85EEC6528EE15FE00EBE2A0 /* Main.storyboard */; };
+		C85EEC6828EE17F800EBE2A0 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC6728EE17F800EBE2A0 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +25,15 @@
 		C85EEC4528EE0CCA00EBE2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C85EEC4728EE0CCA00EBE2A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C85EEC4928EE0CCA00EBE2A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C85EEC4C28EE0CCA00EBE2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C85EEC4E28EE0CCC00EBE2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C85EEC5128EE0CCC00EBE2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C85EEC5328EE0CCC00EBE2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85EEC5D28EE0EAB00EBE2A0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C85EEC5F28EE10E200EBE2A0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C85EEC6128EE131F00EBE2A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C85EEC6328EE134E00EBE2A0 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		C85EEC6528EE15FE00EBE2A0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Main.storyboard"; sourceTree = "<group>"; };
+		C85EEC6728EE17F800EBE2A0 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,52 @@
 		C85EEC4428EE0CCA00EBE2A0 /* Zoomer */ = {
 			isa = PBXGroup;
 			children = (
+				C85EEC5C28EE0E7B00EBE2A0 /* ViewControllers */,
+				C85EEC5B28EE0E7600EBE2A0 /* Views */,
+				C85EEC5A28EE0E6D00EBE2A0 /* Helpers */,
+				C85EEC5928EE0D1100EBE2A0 /* AppStuff */,
+			);
+			path = Zoomer;
+			sourceTree = "<group>";
+		};
+		C85EEC5928EE0D1100EBE2A0 /* AppStuff */ = {
+			isa = PBXGroup;
+			children = (
+				C85EEC6528EE15FE00EBE2A0 /* Main.storyboard */,
 				C85EEC4528EE0CCA00EBE2A0 /* AppDelegate.swift */,
 				C85EEC4728EE0CCA00EBE2A0 /* SceneDelegate.swift */,
 				C85EEC4928EE0CCA00EBE2A0 /* ViewController.swift */,
-				C85EEC4B28EE0CCA00EBE2A0 /* Main.storyboard */,
 				C85EEC4E28EE0CCC00EBE2A0 /* Assets.xcassets */,
 				C85EEC5028EE0CCC00EBE2A0 /* LaunchScreen.storyboard */,
 				C85EEC5328EE0CCC00EBE2A0 /* Info.plist */,
 			);
-			path = Zoomer;
+			path = AppStuff;
+			sourceTree = "<group>";
+		};
+		C85EEC5A28EE0E6D00EBE2A0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C85EEC5F28EE10E200EBE2A0 /* TabBarViewController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C85EEC5B28EE0E7600EBE2A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C85EEC6728EE17F800EBE2A0 /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C85EEC5C28EE0E7B00EBE2A0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C85EEC5D28EE0EAB00EBE2A0 /* BaseViewController.swift */,
+				C85EEC6128EE131F00EBE2A0 /* HomeViewController.swift */,
+				C85EEC6328EE134E00EBE2A0 /* HistoryViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +172,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85EEC6628EE15FE00EBE2A0 /* Main.storyboard in Resources */,
 				C85EEC5228EE0CCC00EBE2A0 /* LaunchScreen.storyboard in Resources */,
 				C85EEC4F28EE0CCC00EBE2A0 /* Assets.xcassets in Resources */,
-				C85EEC4D28EE0CCA00EBE2A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,22 +186,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C85EEC4A28EE0CCA00EBE2A0 /* ViewController.swift in Sources */,
+				C85EEC5E28EE0EAB00EBE2A0 /* BaseViewController.swift in Sources */,
 				C85EEC4628EE0CCA00EBE2A0 /* AppDelegate.swift in Sources */,
+				C85EEC6028EE10E200EBE2A0 /* TabBarViewController.swift in Sources */,
 				C85EEC4828EE0CCA00EBE2A0 /* SceneDelegate.swift in Sources */,
+				C85EEC6428EE134E00EBE2A0 /* HistoryViewController.swift in Sources */,
+				C85EEC6828EE17F800EBE2A0 /* GradientView.swift in Sources */,
+				C85EEC6228EE131F00EBE2A0 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C85EEC4B28EE0CCA00EBE2A0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C85EEC4C28EE0CCA00EBE2A0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C85EEC5028EE0CCC00EBE2A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Zoomer/Info.plist;
+				INFOPLIST_FILE = Zoomer/AppStuff/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +359,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Zoomer/Info.plist;
+				INFOPLIST_FILE = Zoomer/AppStuff/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
