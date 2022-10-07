@@ -10,7 +10,7 @@ import UIKit
 class BaseViewController: UIViewController {
     
     private lazy var backgroundLayer: GradientView = {
-        let v = GradientView(colors: [UIColor.systemOrange, UIColor.systemGray2,UIColor.systemBrown,])
+        let v = GradientView(colors: [UIColor.systemRed, UIColor.systemYellow, UIColor.white, UIColor.white,])
         v.translatesAutoresizingMaskIntoConstraints = false
         return v
     }()

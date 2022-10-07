@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C825C78A28EFD51B0057375F /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C825C78928EFD51B0057375F /* CircularButton.swift */; };
 		C85EEC4628EE0CCA00EBE2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC4528EE0CCA00EBE2A0 /* AppDelegate.swift */; };
 		C85EEC4828EE0CCA00EBE2A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC4728EE0CCA00EBE2A0 /* SceneDelegate.swift */; };
 		C85EEC4A28EE0CCA00EBE2A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC4928EE0CCA00EBE2A0 /* ViewController.swift */; };
@@ -18,9 +19,11 @@
 		C85EEC6428EE134E00EBE2A0 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC6328EE134E00EBE2A0 /* HistoryViewController.swift */; };
 		C85EEC6628EE15FE00EBE2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85EEC6528EE15FE00EBE2A0 /* Main.storyboard */; };
 		C85EEC6828EE17F800EBE2A0 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85EEC6728EE17F800EBE2A0 /* GradientView.swift */; };
+		C86DF62A28EFDADC00AB4ECC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DF62928EFDADC00AB4ECC /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C825C78928EFD51B0057375F /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 		C85EEC4228EE0CCA00EBE2A0 /* Zoomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85EEC4528EE0CCA00EBE2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C85EEC4728EE0CCA00EBE2A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		C85EEC6328EE134E00EBE2A0 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		C85EEC6528EE15FE00EBE2A0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Main.storyboard"; sourceTree = "<group>"; };
 		C85EEC6728EE17F800EBE2A0 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		C86DF62928EFDADC00AB4ECC /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				C85EEC5F28EE10E200EBE2A0 /* TabBarViewController.swift */,
+				C86DF62928EFDADC00AB4ECC /* LocationManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				C85EEC6728EE17F800EBE2A0 /* GradientView.swift */,
+				C825C78928EFD51B0057375F /* CircularButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,12 +193,14 @@
 			files = (
 				C85EEC4A28EE0CCA00EBE2A0 /* ViewController.swift in Sources */,
 				C85EEC5E28EE0EAB00EBE2A0 /* BaseViewController.swift in Sources */,
+				C86DF62A28EFDADC00AB4ECC /* LocationManager.swift in Sources */,
 				C85EEC4628EE0CCA00EBE2A0 /* AppDelegate.swift in Sources */,
 				C85EEC6028EE10E200EBE2A0 /* TabBarViewController.swift in Sources */,
 				C85EEC4828EE0CCA00EBE2A0 /* SceneDelegate.swift in Sources */,
 				C85EEC6428EE134E00EBE2A0 /* HistoryViewController.swift in Sources */,
 				C85EEC6828EE17F800EBE2A0 /* GradientView.swift in Sources */,
 				C85EEC6228EE131F00EBE2A0 /* HomeViewController.swift in Sources */,
+				C825C78A28EFD51B0057375F /* CircularButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
